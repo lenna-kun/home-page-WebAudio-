@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Kosugi+Maru|Sacramento&display=swap');
+
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-family: 'Kosugi Maru';
+}
+
+#button {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 30px;/*高さ*/
+    width: 220px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 17px;/*文字のサイズ*/
+    font-family: 'Dancing Script';
+    line-height: 30px;/*高さと合わせる*/
+    background: #3a3a3a;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+    -webkit-transition: ease-out all 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -ms-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+    opacity: 0;
+}
+
+#button span {
+    display:inline-block;
+    transition: .5s;
+}
+
+#button:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.static {
+    -webkit-transition: ease-out all 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -ms-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+    opacity: 0;
+}
+
+h1 {
+    color: rgb(34, 34, 34);
+    position: relative;
+    top: -10px;
+    font-family: 'Dancing Script';
+    text-align: center;
+    font-size: 64px;
+}
+
+.links {
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: -40px;
+    left: 50%;
+    width: 490px;
+    text-align: center;
+    font-family: 'Dancing Script';
+}
+
+.btn-social-long-twitter {
+    position: absolute;
+    left: 0;
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 30px;/*高さ*/
+    width: 150px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 17px;/*文字のサイズ*/
+    line-height: 30px;/*高さと合わせる*/
+    background: #1da1f3;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-twitter .fa-twitter {
+    text-shadow: 2px 2px 0px #4287d6;
+    font-size: 20px;
+}
+
+.btn-social-long-twitter span {
+    display:inline-block;
+    transition: .5s;
+}
+
+.btn-social-long-twitter:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.btn-social-long-youtube {
+    position: absolute;
+    left: 170px;
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 30px;/*高さ*/
+    width: 150px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 17px;/*文字のサイズ*/
+    line-height: 30px;/*高さと合わせる*/
+    background: #c50000;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-youtube .fa-twitter {
+    text-shadow: 2px 2px 0px #c53e3e;
+    font-size: 20px;
+}
+
+.btn-social-long-youtube span {
+    display:inline-block;
+    transition: .5s;
+}
+
+.btn-social-long-youtube:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+.btn-social-long-github {
+    position: absolute;
+    left: 340px;
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    display: inline-block;
+    height: 30px;/*高さ*/
+    width: 150px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 17px;/*文字のサイズ*/
+    line-height: 30px;/*高さと合わせる*/
+    background: #242424;
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-github .fa-twitter {
+    text-shadow: 2px 2px 0px #5a5a5a;
+    font-size: 20px;
+}
+
+.btn-social-long-github span {
+    display:inline-block;
+    transition: .5s;
+}
+
+.btn-social-long-github:hover span {
+    -webkit-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+h2 {
+    position: relative;
+    top: -10px;
+    left: 25%;
+    color: rgb(34, 34, 34);
+    font-family: 'Sacramento';
+    font-size: 36px;
+}
+p {
+    position: relative;
+    top: -20px;
+    left: 36%;
+    color: rgb(34, 34, 34);
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 15px;
+}
+
+iframe {
+    position: relative;
+    top: -20px;
+    left: 36%;
+    color: rgb(34, 34, 34);
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 15px;
+}
+
+.block1 {
+    position: absolute;
+    left: 7%;
+    top: 190px;
+}
+
+.block2 {
+    position: absolute;
+    left: 45%;
+    top: 215px;
+}
+
+canvas {
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+
+#loading {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: ease-out all 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -ms-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+    opacity: 1;
+}
+  /* Spinner */
+.spinner:before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 0, 55, 0);
+    border-top-color: rgba(0, 66, 2, 0.795);
+    animation: spinner 0.7s linear infinite;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
